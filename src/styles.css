@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+Header {
+  padding: 0 2%;
+  background-color: red;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+Header > div > p {
+  color: white;
+  font-size: 23px;
+  height: 35px;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  position: relative;
+  top: 4px;
+}
+
+.desktop li {
+  list-style-type: none;
+}
+.desktop a {
+  text-decoration: none;
+  color: white;
+  font-size: 17px;
+}
+
+fieldset {
+  display: flex;
+  padding: 2rem;
+  margin-bottom: 1rem;
+  border: 2px solid green;
+}
+
+input {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+}
+
+label {
+  display: flex;
+  flex-direction: row;
+  font-size: 1.2em;
+  margin: 11px;
+}
